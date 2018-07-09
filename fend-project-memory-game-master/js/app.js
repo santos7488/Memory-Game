@@ -1,4 +1,6 @@
 
+
+
 const cardsList = ["fa-paper-plane-o", "fa-paper-plane-o",
 			"fa-diamond", "fa-diamond",
 			"fa-bicycle", "fa-bicycle",
