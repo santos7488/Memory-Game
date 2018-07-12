@@ -29,9 +29,13 @@ body {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Marker Felt, fantasy;
     font-weight: 300;
 }
+
+/*
+ * Styles for the deck of cards
+ */
 
 .deck {
     width: 660px;
@@ -77,6 +81,10 @@ h1 {
     font-size: 33px;
 }
 
+/*
+ * Styles for the Score Panel
+ */
+
 .score-panel {
     text-align: left;
     width: 345px;
@@ -98,4 +106,53 @@ h1 {
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-open {
+    display: inline-block;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    font-family: Marker Felt, fantasy;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #eaa51c, #fcf800);
+    margin: auto;
+    border: 2px solid #3a3a3a;
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+    width: 65%;
+}
+
+li, i {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: Marker Felt, fantasy;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #47e542;
+    border: 2px solid #3a3a3a;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    margin: 2em;
 }
