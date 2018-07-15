@@ -7,8 +7,6 @@
 
 ## Instructions
 
-The game is played by clicking a box and matching it with another box. there is a timer that keeps track of how long it takes you to complete the game by matching all the boxes. a 3 star rating is given at the start and decreases as time goes on
-
 The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
 To get started, open `js/app.js` and start building out the app's functionality
